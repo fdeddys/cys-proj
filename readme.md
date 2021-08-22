@@ -1,9 +1,25 @@
 ## Information
 
 ### database
-#### create database resourceDb;
+create database resourceDb;
 
 
+### table
+CREATE TABLE users (
+	id bigserial NOT NULL,
+	user_name varchar(100) NULL,
+	api_token varchar(200) NULL,
+	aws_credential varchar(200) NULL,
+	PRIMARY KEY (id)
+);
+
+CREATE TABLE resources (
+	id bigserial NOT NULL,
+	user_name varchar(100) NULL,
+	resource_type varchar(200) NULL,
+	service_name varchar(200) NULL,
+	PRIMARY KEY (id)
+);
 
 
 ### Register
