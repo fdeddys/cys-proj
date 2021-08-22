@@ -3,7 +3,7 @@
 ### database
 #### create database resourceDb;
 
-#### create user user_tes with superuser password 'abC.!123';
+
 
 
 ### Register
